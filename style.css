@@ -1,0 +1,347 @@
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    
+}
+h2{
+    font-family: Lora , sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 0 0 0.5rem;
+    font-weight: 800;
+}
+.header2{
+  display: flex;
+  font-size: 1rem;
+  margin-left: auto;
+  align-items: center;
+
+}
+h3{
+    font-family: Lora, sans-serif;
+    font-size: 1rem;
+    margin-left:auto
+}
+.heroimage{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    
+}
+.heroimage img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80;
+    height: auto;
+}
+
+
+.heroimage img:first-child{
+    z-index: 1;
+   
+}
+.heroimage img:last-child{
+   z-index: 2;
+   left: 20px;
+   top: 20px;
+}
+.herosection{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Lora,sans-serif;
+    text-align:left;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+.herosection .p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    margin: 1rem 0;
+}
+.wrestle{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45rem;
+    border: 5px solid black;
+    padding: 3rem;
+    margin-left: 10rem;
+    border-radius: 30px;
+   
+}
+.wrestle image{
+    width: 50;
+    height: 50;
+    border-radius: 50%;
+}
+.wrestle p{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin-left: 4rem;
+    color: black;
+    font-size: larger;
+    
+}
+.Playherokind{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border: 5px solid black;
+    padding: 3rem;
+    margin-left: 10rem;
+    border-radius: 30px;
+    
+}
+.Playherokind image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+.Playherokind p{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin-left: 4rem;
+    color: black;
+    font-size: larger; 
+}
+.third{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border: 5px solid black;
+    padding: 3rem;
+    margin-left: 10rem;
+    border-radius: 30px; 
+}
+.third image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    flex-shrink: 0; 
+}
+.third p{
+    font-family: Lora, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    margin-left: 4rem;
+    color: black;
+    font-size: xx-large; 
+}
+.third p:last-child{
+    font-weight: 400;
+    font-size: larger;
+}
+.lunchbox{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border: 5px solid black;
+    padding: 3rem;
+    margin-left: 10rem;
+    border-radius: 30px;  
+}
+.lunchbox image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    flex-shrink: 0; 
+}
+.lunchbox p{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: left;
+    margin-left: 4rem;
+    color: black;
+    font-size: large; 
+}
+.collectibles{
+   background-image: url(62bacd30fa2cce04546413f8_Projects\ Section.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   height: 900px;
+   width: 100%;
+   
+}
+.collectibles-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,50%)translate(50px,50px);
+    align-items: center;
+    margin-right: 20rem;
+    
+}
+
+
+.collectibles p{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: left;
+    margin-left: 4rem;
+    color: white;
+    font-size: larger;
+    background-color: black;
+    margin-bottom: 20rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 0;
+    border: 5px solid black;
+    
+}
+.collectibles img{
+    margin-left: 20rem;
+    margin-bottom: 0%;
+    margin-top: 12rem;
+    
+}
+.story{
+   background-image: url(62b9d5bca5a6730b3e977966_Weapons\ Section.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   height: 900px;
+   width: 100%;
+}
+.story-content{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,50%)translate(50px,50px);
+    align-items: center;
+    margin-right: 20rem;
+    
+}
+ .story p{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: left;
+    margin-left: 4rem;
+    color: black;
+    font-size: larger;
+    background-color: white;
+    margin-bottom: 0%;
+    margin-left: 7rem;
+    margin-right: 10rem;
+    margin-top: 6rem;
+    border: 5px solid white;
+    border-left: 5rem;
+    border-right: 5rem;
+    display: inline-flex;
+    flex-direction: column;
+ }
+ .story img{
+    margin-left: 50rem;
+    margin-top: 0rem;
+ }
+ .photo img{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: 12rem;
+ }
+ .text p1{
+    font-family: Lora, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    justify-content: left;
+    margin-left: 15rem;
+    color: black;
+    font-size: xx-large; 
+ }
+ .text p2{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    margin-left: 0rem;
+    color: black;
+    font-size: x-large; 
+    display: block;
+    float: right;
+    clear: right;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    margin-right: 14rem;
+    
+ }
+ .team{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8rem;
+    
+ }
+ .team img{
+    
+     margin-right: 2rem;
+ }
+ .team p{
+    font-family: Lora, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    justify-content: left;
+    margin-left: 2rem;
+    color: black;
+    font-size: large;
+    display: inline-flex;
+    flex-direction: column;
+ }
+.yourback img{
+    margin-left: 28rem;
+}
+.yourback p{
+    font-family:Lora, sans-serif;
+    font-weight: 400; 
+    text-align: center;
+    justify-content: center;
+    margin-left: 14rem;
+    margin-top: 4rem;
+    color: black;
+    font-size: large;
+}
+.end{
+    display: inline-flex;
+}
+.end img:first-child{
+    margin-top: 6rem;
+
+ 
+}
+.end img:last-child{
+    margin-left: 20rem;
+}
